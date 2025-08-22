@@ -1,0 +1,24 @@
+{
+  "name": "autowebsite",
+  "version": "1.0.0",
+  "description": "Car dealership website with React frontend and Node.js backend",
+  "scripts": {
+    "dev": "docker-compose up",
+    "build": "docker-compose build",
+    "start": "docker-compose up -d",
+    "stop": "docker-compose down",
+    "logs": "docker-compose logs -f",
+    "clean": "docker-compose down -v && docker system prune -f"
+  },
+  "keywords": [
+    "car",
+    "dealership",
+    "react",
+    "typescript",
+    "nodejs",
+    "mysql",
+    "docker"
+  ],
+  "author": "AutoWebsite Team",
+  "license": "MIT"
+}
